@@ -66,12 +66,6 @@
   font-family: Rubik, Arial, Helvetica, sans-serif;
 }
 
-@media mobibleScreen and (max-width: 1024) {
-  body {
-    font-size: 100px;
-  }
-}
-
 html {
   font-size: 62.5%;
 }
@@ -148,4 +142,21 @@ body {
 .footer-heading-text {
   text-align: center;
   margin-bottom: 6.4rem;
+}
+
+@media screen and (max-width: 34em) {
+  .main_heading {
+    font-size: 4.4rem;
+  }
+
+  .heading-container {
+    padding: 2.4rem;
+    flex-direction: column;
+  }
+
+  .heading-image {
+    margin-top: 4.8rem;
+    width: 30rem;
+    height: 30rem;
+  }
 }
