@@ -146,9 +146,13 @@ body {
 
 @media screen and (max-width: 34em) {
   .main_heading {
-    margin: 0px;
+    margin-bottom: 4.8rem;
     width: 100%;
-    font-size: 4.4rem;
+    font-size: 3.6rem;
+  }
+
+  .heading_secondary {
+    font-size: 3.6rem;
   }
 
   .heading-container {
@@ -181,5 +185,9 @@ body {
   .footer-container {
     width: 100vw;
     margin: 6.4rem 0px;
+  }
+
+  .footer-heading-text {
+    font-size: 3.6rem;
   }
 }
